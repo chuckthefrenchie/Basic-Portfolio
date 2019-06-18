@@ -1,58 +1,66 @@
  
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url("memphis-mini.png");
-    color: #777777;
-  } 
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url("memphis-mini.png");
+  color: #777777;
+  margin-top: 0px !important;
+} 
 
 .header {
-    overflow: hidden;
-    background-color: white;
-    border-bottom: 2px solid #dddddd;
-    float: right;
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 30px;  
-    margin-top: 0px;
-  }
-  
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 2px solid #dddddd;
+  float: right;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 30px; 
+  height: 70px;
+  margin-top: 0px;
+  padding-right: 100px;
  
+}
+
+
+.header a {
+  float: right;
+  color: #777777;
+  text-align: center;
+  width: 100px;
+  text-decoration: none;
+  font-size: 14px;
+  border-left: 0.1px solid #dddddd;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+ 
+  
+}
+
 #Daria {
-    font-size: 20px;
-    background: #4aaaa5;
-    color: white; 
-    float: left;
-    padding: 20px;
-    margin-left: 100px; 
-    margin-top: 0px;
-    margin-bottom: 0px;  
-    width: 170px;
-    border:
   
-  }
+  font-size: 20px;
+  background: #4aaaa5;
+  color: white;
+  float: left;
+  padding: 15px;
+  margin-left: 220px; 
+  width: 200px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  height: 50px;
+  margin-top: 0px;
+  text-align: center;
 
-  .header a {
-    float: right;
-    color: #777777;
-    text-align: center;
-    width: 100px;
-    text-decoration: none;
-    font-size: 14px;
-    border-left: 0.1px solid #dddddd;
-    margin-top: 30px;
-    text-align: center;
-    
-  }
+}
 
-  #about {
-    border-left: 1px solid white;
-  }
-  .header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .aboutMe {
+#about {
+  border-left: 1px solid white;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  .portfolio {
     clear: both;
     overflow: auto;
     background-color: #ffffff;
@@ -61,18 +69,8 @@ body {
     border: 1px solid #dddddd;
     line-height: 20px;
     padding: 30px;
-    margin-left: 90px;
+    margin-left: 120px;
   }
-  #contact {
-      margin-right: 120px;
-  }
-
-  img {
-      float: left;
-      margin: 10px;
-  }
-  
-  
   h1 {
     clear: both;
     overflow: auto;
@@ -81,12 +79,17 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #dddddd;
   }
-
- 
-
-  p {
-      padding: 25px;
-      margin-left; 15px;
+  .container {
+    position: relative;
+    font-family: Arial;
   }
   
-  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: -90px;
+    background-color: black;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
