@@ -42,7 +42,8 @@ body {
     color: white;
     float: left;
     padding: 15px;
-    margin-left: 130px;  
+    margin-left: 130px; 
+    
     width: 200px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 50px;
@@ -94,8 +95,8 @@ body {
 
   p {
       padding: 25px;
-      margin-left: 20px;
-
+      margin-left: 15px;
+      
       
      
   }
